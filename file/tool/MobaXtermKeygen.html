@@ -7,10 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MobaXterm Keygen</title>
 
-    <script src="../../source/js/vue/vue.min-2.6.12.js"></script>
-    <!-- <script src="../../source/js/vue/vue-2.6.12.js"></script> -->
-    <script src="../../source/js/FileSaver/FileSaver.min.js"></script>
-    <script src="../../source/js/jszip/jszip.min.js"></script>
+    <script src="./js/vue/vue.min-2.6.12.js"></script>
+    <script src="./js/FileSaver/FileSaver.min.js"></script>
+    <script src="./js/jszip/jszip.min.js"></script>
 
     <link href="./css/pure-min.css" rel="stylesheet" />
     <!-- <link href="../../source/css/bootstrap/bootstrap.min.css" rel="stylesheet" /> -->
@@ -120,7 +119,7 @@
                                 <label for="versionName">版本号：</label>
                                 <my-input :idattr="'versionName'" :validation="'^[1-9][0-9]*\\.?\\d{0,1}$'"
                                     :validationtips="'小数且小数点后只能有1位'" :valueattr="versionName"
-                                    :placeholderattr="'示例 21.0'" @set-data="setVersionName"></my-input>
+                                    :placeholderattr="'示例 23.0'" @set-data="setVersionName"></my-input>
                             </div>
                             <div class="pure-control-group pure-u-1">
                                 <label for="userNum">用户数：</label>
@@ -154,7 +153,7 @@
             data() {
                 return {
                     userName: 'defaultUser',
-                    versionName: '21.0',
+                    versionName: '23.0',
                     userNum: 1,
                     licenseType: 1,
                     LICENSE_TYPES: LicenseType
